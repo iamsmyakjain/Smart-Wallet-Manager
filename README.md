@@ -22,24 +22,7 @@ Project Structure:
 expense-tracker/
 ├── src/
 │   ├── model/
-│   │   ├── Budget.java
 │   │   ├── Category.java
-│   │   ├── Expense.java
-│   │   ├── Income.java
-│   │   ├── RecurringTransaction.java
-│   │   └── TransactionType.java
-│   ├── service/
-│   │   ├── BudgetService.java
-│   │   ├── ExpenseService.java
-│   │   ├── IncomeService.java
-│   │   ├── RecurringTransactionService.java
-│   │   ├── ReportService.java
-│   │   └── SearchService.java     
-│   ├── util/
-│   │   ├── ChartGenerator.java
-│   │   ├── ConsoleFormatter.java
-│   │   └── DateUtil.java
-│   └── MainApp.java
 
 Sample Usage:
 
