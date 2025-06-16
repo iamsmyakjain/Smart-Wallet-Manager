@@ -18,6 +18,7 @@ Data Structures (HashMaps, ArrayLists)
 Algorithms (Binary Search, Sorting)
 
 Project Structure:
+
 expense-tracker/
 ├── src/
 │   ├── model/
@@ -39,6 +40,7 @@ expense-tracker/
 │   │   ├── ConsoleFormatter.java
 │   │   └── DateUtil.java
 │   └── MainApp.java
+
 
 Sample Usage:
 
