@@ -1,6 +1,7 @@
 A comprehensive expense tracking system built with Java that helps users manage their finances through a console interface. Features include income/expense tracking, budgeting, recurring transactions, and financial reporting.
 
 Features:
+
 Income/Expense Tracking: Record financial transactions with categories
 Budget Management: Set monthly budgets for spending categories
 Recurring Transactions: Automate regular payments/salary deposits
