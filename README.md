@@ -1,36 +1,54 @@
 A comprehensive expense tracking system built with Java that helps users manage their finances through a console interface. Features include income/expense tracking, budgeting, recurring transactions, and financial reporting.
 
-Features:
+Features:-
+1. Income/Expense Tracking: Record financial transactions with categories.
+2. Budget Management: Set monthly budgets for spending categories.
+3. Recurring Transactions: Automate regular payments/salary deposits.
+4. Advanced Reporting:
+        Monthly salary statements.
+        Spending breakdowns by category.
+        Investment recommendations (20% of surplus).
+5. Data Visualization: ASCII pie/bar charts.
+6. Search Functionality: Filter transactions by date, amount, or category.
 
-Income/Expense Tracking: Record financial transactions with categories
-Budget Management: Set monthly budgets for spending categories
-Recurring Transactions: Automate regular payments/salary deposits
-Advanced Reporting:
-       Monthly salary statements
-       Spending breakdowns by category
-       Investment recommendations (20% of surplus)
-Data Visualization: ASCII pie/bar charts
-Search Functionality: Filter transactions by date, amount, or category
+Technology Used:-
+1. Core Java (Collections, Stream API, Date/Time)
+2. OOP Principles (Encapsulation, Inheritance, Polymorphism)
+3. Data Structures (HashMaps, ArrayLists)
+4. Algorithms (Binary Search, Sorting)
 
-Technologies Used:
-Core Java (Collections, Stream API, Date/Time)
-OOP Principles (Encapsulation, Inheritance, Polymorphism)
-Data Structures (HashMaps, ArrayLists)
-Algorithms (Binary Search, Sorting)
-
-Project Structure:
+Project Structure:-
 
 expense-tracker/
 ├── src/
 │   ├── model/
+│   │   ├── Budget.java
 │   │   ├── Category.java
+│   │   ├── Expense.java
+│   │   ├── Income.java
+│   │   ├── RecurringTransaction.java
+│   │   └── TransactionType.java
+│   ├── service/
+│   │   ├── BudgetService.java
+│   │   ├── ExpenseService.java
+│   │   ├── IncomeService.java
+│   │   ├── RecurringTransactionService.java
+│   │   ├── ReportService.java
+│   │   └── SearchService.java
+│   ├── util/
+│   │   ├── ChartGenerator.java
+│   │   ├── ConsoleFormatter.java
+│   │   └── DateUtil.java
+│   └── MainApp.java
+└── READMe.md
 
 Sample Usage:
 
-Adding Income:-
+ADDING INCOME:
 === EXPENSE TRACKER ===
 1. Add Income
 2. Add Expense
+...
 Enter choice: 1
 === ADD INCOME ===
 Amount: 5000
@@ -39,8 +57,8 @@ Source: Salary
 
 Nov 01, 2023 12:00 PM [Income]    +$5000.00               Salary        (Balance: $5000.00)
 
+ADDING EXPENSE:
 
-Adding Expense:-
 Enter choice: 2
 === ADD EXPENSE ===
 Categories:
@@ -53,8 +71,7 @@ Description: Groceries
 
 Nov 02, 2023 12:00 PM [Expense]   -$150.00    Food         Groceries      (Balance: $4850.00)
 
-
-Monthly Report:-
+MONTHLY REPORT:-
 Enter choice: 12
 
 === Monthly Salary Statement ===
