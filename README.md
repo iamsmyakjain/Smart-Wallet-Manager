@@ -82,8 +82,8 @@ Sample Usage:
     -----------|----------|-------------|---------|----------
     2023-11-02 | Food     | Groceries   | $150.00 | $4850.00
 
-=== Final Summary ===
-Starting Salary: $5000.00
-Total Expenses: $150.00
-Remaining Balance: $4850.00
-Utilization Percentage: 3.0%
+    === Final Summary ===
+    Starting Salary: $5000.00
+    Total Expenses: $150.00
+    Remaining Balance: $4850.00
+    Utilization Percentage: 3.0%
